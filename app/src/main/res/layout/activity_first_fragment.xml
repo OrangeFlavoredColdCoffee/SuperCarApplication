@@ -24,18 +24,22 @@
                 android:padding="10dp"
                 android:orientation="horizontal">
                 <RadioButton
+                    android:id="@+id/radiobutton_go_wash"
                     style="@style/HomeOperater"
                     android:drawableTop="@mipmap/ic_xiche"
                     android:text="去洗车" />
                 <RadioButton
+                    android:id="@+id/radiobutton_maintain"
                     style="@style/HomeOperater"
                     android:drawableTop="@mipmap/ic_baoyang"
                     android:text="做保养" />
                 <RadioButton
+                    android:id="@+id/radiobutton_change_tire"
                     style="@style/HomeOperater"
                     android:drawableTop="@mipmap/ic_huanluntai"
                     android:text="换轮胎" />
                 <RadioButton
+                    android:id="@+id/radiobutton_oil_change"
                     style="@style/HomeOperater"
                     android:drawableTop="@mipmap/engine_oil"
                     android:text="换机油" />
